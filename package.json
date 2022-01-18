@@ -1,0 +1,23 @@
+{
+  "name": "payment-system",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn workspace payment-next dev",
+    "compile": "yarn workspace payment-hardhat compile",
+    "chain": "yarn workspace payment-hardhat chain"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/hardhat",
+      "**/hardhat/**"
+    ]
+  }
+}
