@@ -11,7 +11,7 @@ yarn install
 Start Nextjs Server
 
 ```bash
-yarn deploy
+yarn dev
 ```
 
 Start Hardhat Network
